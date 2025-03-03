@@ -31,6 +31,9 @@ on:
       - 'main'
   workflow_dispatch:
 
+permissions:
+  actions: write
+
 env:
   IMAGE_NAMESPACE: 'tractusx'
   IMAGE_NAME: 'portal-frontend'
